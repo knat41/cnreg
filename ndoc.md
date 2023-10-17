@@ -4,6 +4,12 @@
 
 __data frame__
 
-.head() เพื่อดูข้อมูลส่วนหัว
+
+
+| Command | Description |
+| --- | --- |
+| .head() | เพื่อดูข้อมูลส่วนหัว |
+| git diff | Show file differences that haven't been staged |
+
 
 เขียนยังไง หาได้ที่ [GitHub Pages](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
