@@ -3,6 +3,7 @@
 ### A third-level heading หัวเรื่อง 3
 
 __data frame__
+
 .head() เพื่อดูข้อมูลส่วนหัว
 
 เขียนยังไง หาได้ที่ [GitHub Pages](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
