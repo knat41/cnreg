@@ -17,3 +17,5 @@ all_student.astype({'เลขประขำตัว':'str'}).dtypes
 
 studentID = all_student.loc[all_student['เลขประขำตัว'] == 42540]
 
+#select with condition
+carryCourse = studentID.loc[studentID['รหัสวิชา'].str.contains(".*ว.*")]
