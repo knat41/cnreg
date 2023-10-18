@@ -20,7 +20,7 @@
    - มี 5 ข้อ ห้ามเว้นว่าง
    - ถ้าครูจะกรอกให้คะแนนต่ำต้อง สัมพันธ์กับเกรด เช่น เกรด 1 อาจกรอก 1 ได้
 
-###ไม่ตรวจ แต่ควรดู###
+###ไม่ตรวจ แต่ควรดู
 1. ข้อมูลพื้นฐานรายวิชา ประกอบด้วย
    - รหัสวิชา
    - ชื่อวิชา
@@ -51,6 +51,9 @@ Use Glob Module to Search by Regular Expressions
 import glob
 glob.glob("/sys/*.log")
 
+__เลือกยังไง__
+
+อ้างอิง [LINK Pages](https://medium.com/@akaivdo/how-to-select-rows-containing-specified-string-7cbba8ffcac4)
 
 
 เขียนยังไง หาได้ที่ [GitHub Pages](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
