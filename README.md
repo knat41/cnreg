@@ -48,6 +48,12 @@ concat() function
 อ้างอิง [LINK Pages](https://pandas.pydata.org/docs/user_guide/merging.html)
 
 
+
+การเลือก
+
+อ้างอิง [LINK Pages](https://blog.datath.com/cheatsheet-pandas/#withi_chekh_Summary_khxng_taela_khxlamn_count_min_max_mean)
+
+
 __os dir__
 Use Glob Module to Search by Regular Expressions
 import glob
