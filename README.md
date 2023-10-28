@@ -61,6 +61,18 @@ concat() function
 อ้างอิง [LINK Pages](https://pandas.pydata.org/docs/user_guide/merging.html)
 
 
+เปลี่ยนแปลงชื่อ
+all_student.rename(columns={'เลขประขำตัว':'StudentID'},inplace=True)
+all_student.rename(columns={'รหัสวิชา':'CourseID'},inplace=True)
+all_student.rename(columns={'ชื่อวิชา':'Title'},inplace=True)
+all_student.rename(columns={'หน่วยกิต':'Credits'},inplace=True)
+all_student.rename(columns={'ผลการเรียน':'Grade'},inplace=True)
+all_student.rename(columns={'กลุ่มที่':'SectionCourseID'},inplace=True)
+all_student.rename(columns={'ปีการศึกษา':'AcademicYear'},inplace=True)
+{'รหัสวิชา':'CourseID', 'ชื่อวิชา':'Title', 'หน่วยกิต':'Credits', 'กลุ่มที่':'SectionCourseID', 'ปีการศึกษา':'AcademicYear',
+'ภาคเรียนที่':'Semester', 'ครูผู้สอน':'Instructor', 'ชื่อ-นามสกุล':'Name', 'ชั้น/ห้อง':'Classroom', 'เลขที่':'ClassNumber', 'กลางภาค':'MidtermExam','ปลายภาค':'FinalExam',
+'หลังกลางภาค':'FinalFormative','ก่อนกลางภาค':'MidtermFormative', 'รวม':'TotalScore', 'รวมร้อยละ':'PercentScore', 'ผลการเรียน':'Grade', 'เต็มรวม':'FullMarks',
+'เต็มก่อนกลางภาค':'MidForFullMarks', 'เต็มหลังกลางภาค':'FinForFullMarks', 'เต็มกลางภาค':'MidFullMarks', 'เต็มปลายภาค':'FinFullMarks'}
 
 การเลือก
 
