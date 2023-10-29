@@ -62,7 +62,7 @@ concat() function
 
 ### สถิติ 
 p https://www.geo.fu-berlin.de/en/v/soga-py/Basics-of-statistics/Descriptive-Statistics/Measures-of-Position/Percentiles-and-Percentile-Rank/index.html
-
+https://www.statology.org/pandas-percentile-rank/
 
 เปลี่ยนแปลงชื่อ
 all_student.rename(columns={'เลขประขำตัว':'StudentID'},inplace=True)
@@ -76,6 +76,9 @@ all_student.rename(columns={'ปีการศึกษา':'AcademicYear'},inp
 'ภาคเรียนที่':'Semester', 'ครูผู้สอน':'Instructor', 'ชื่อ-นามสกุล':'Name', 'ชั้น/ห้อง':'Classroom', 'เลขที่':'ClassNumber', 'กลางภาค':'MidtermExam','ปลายภาค':'FinalExam',
 'หลังกลางภาค':'FinalFormative','ก่อนกลางภาค':'MidtermFormative', 'รวม':'TotalScore', 'รวมร้อยละ':'PercentScore', 'ผลการเรียน':'Grade', 'เต็มรวม':'FullMarks',
 'เต็มก่อนกลางภาค':'MidForFullMarks', 'เต็มหลังกลางภาค':'FinForFullMarks', 'เต็มกลางภาค':'MidFullMarks', 'เต็มปลายภาค':'FinFullMarks'}
+
+เปลี่ยน data type
+https://sparkbyexamples.com/pandas/pandas-convert-column-to-int/#:~:text=You%20can%20use%20DataFrame.,any%20value%20after%20the%20decimal.
 
 การเลือก
 
