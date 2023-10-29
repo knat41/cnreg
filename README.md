@@ -80,7 +80,7 @@ all_student.rename(columns={'ปีการศึกษา':'AcademicYear'},inp
 การเลือก
 
 อ้างอิง [LINK Pages](https://blog.datath.com/cheatsheet-pandas/#withi_chekh_Summary_khxng_taela_khxlamn_count_min_max_mean)
-
+https://medium.com/data-cafe-thailand/pandas-part-ii-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81-rows-columns-%E0%B9%81%E0%B8%A5%E0%B8%B0-row-filtering-%E0%B9%83%E0%B8%99-pandas-f2e6c9ca51e5
 
 __os dir__
 Use Glob Module to Search by Regular Expressions
