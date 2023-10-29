@@ -60,6 +60,9 @@ concat() function
 
 อ้างอิง [LINK Pages](https://pandas.pydata.org/docs/user_guide/merging.html)
 
+### สถิติ 
+p https://www.geo.fu-berlin.de/en/v/soga-py/Basics-of-statistics/Descriptive-Statistics/Measures-of-Position/Percentiles-and-Percentile-Rank/index.html
+
 
 เปลี่ยนแปลงชื่อ
 all_student.rename(columns={'เลขประขำตัว':'StudentID'},inplace=True)
