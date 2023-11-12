@@ -182,6 +182,18 @@ def getGPA(dataframe, studentID):
     gpa = gradePointAverage(s1,'Grade', 'Credits')
     return gpa
 
+def getYearGPA(dataframe, studentID):
+    qureytxt = 'StudentID == ' + str(studentID)
+    s1 = dataframe.query(qureytxt)
+    s1 = s1.astype({'Grade':'float32'})
+    years = set(s1["AcademicYear"])
+    for year in years:
+        s2 = s1.groupby(["AcademicYear"]).get_group(year)
+        gpa = gradePointAverage(s2,'Grade', 'Credits')
+        print(f'Year {year} your gpa is {formatGPA(gpa)}')
+#    grouped = s1.groupby(["AcademicYear", "Semester"])
+    
+
 def getGPAX(dataframe, studentID):
     qureytxt = 'StudentID == ' + str(studentID)
     s1 = dataframe.query(qureytxt)
