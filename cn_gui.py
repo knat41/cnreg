@@ -47,6 +47,7 @@ def exitwindow():
 # Modified Button Click Function
 def click_me():
     gpax, gpagroup = getGPAX(dfs, name.get())
+    getYearGPA(dfs, name.get())
     _msgTextBox(formatGPA(gpax))
     action.configure(text=name.get() + ' GPAX ' + formatGPA(gpax) +' ')
     plotGPA(gpagroup)
