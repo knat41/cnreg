@@ -4,3 +4,7 @@ pip install reportlab
 
 ตัวนี้ test ใช้ภาษาไทยไม่ได้
 pip install PyMuPDF
+##วิธีปรับตำแหน่ง
+* เปิด PDF ต้นฉบับ (form_template.pdf) ด้วยโปรแกรมเช่น Adobe Acrobat หรือ Foxit PDF
+* ใช้เครื่องมือวัดตำแหน่ง (Measurement Tool) เพื่อดูตำแหน่ง (x, y) ที่ต้องการใส่ข้อความ
+* ปรับตำแหน่งในลิสต์ text_positions
