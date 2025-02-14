@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-Academic Document</title>
+</head>
+<body>
+    <h2>ระบบคำร้องขอเอกสาร</h2>
+    <form action="/add" method="POST">
+        ชื่อนักเรียน: <input type="text" name="student_name" required>
+        ประเภทเอกสาร: <input type="text" name="document_type" required>
+        <button type="submit">ยื่นคำร้อง</button>
+    </form>
+    <h3>รายการคำร้อง</h3>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>ชื่อ</th>
+            <th>เอกสาร</th>
+            <th>สถานะ</th>
+            <th>วันที่</th>
+        </tr>
+        {% for req in requests %}
+        <tr>
+            <td>{{ req[0] }}</td>
+            <td>{{ req[1] }}</td>
+            <td>{{ req[2] }}</td>
+            <td>{{ req[3] }}</td>
+            <td>{{ req[4] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
+
