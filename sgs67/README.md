@@ -19,7 +19,6 @@ print(missing_instructors_some_L)
 SGS สารสนเทศ 
 ### มีเกือบหมด ขาด ปกติ เรียนซ้ำ
 7. ผลการเรียน ปพ.5
-22. ตรวจสอบผลการเรียน หน่วยกิต รายวิชา
 ```
 ปีการศึกษา/ภาคเรียน	2567/1	
 ข้อมูล	7. ผลการเรียน ปพ.5
@@ -53,6 +52,11 @@ SGS สารสนเทศ
 
 ### not know
 57. ตรวจสอบการบันทึกผลการเรียน
+```
+ปีการศึกษา/ภาคเรียน	2567/1	
+ข้อมูล	57. ตรวจสอบการบันทึกผลการเรียน
+ระดับชั้น	ม.6
+```
 * ตัวอย่างข้อมูล
 
 | SchID       | CertID   | CourseID | ClassLevelID | Yr   | Tr | Code   | Titles                        | CodeEnglish | TitlesEnglish          | Credits | ClassSubjectID | ClassSectionNo | StrSectionNo | S1   | S2 | S3 | S4 | S5 | S6 | S7 | S8 | S9 | ก่อนกลางภาค | S10  | S11 | S12 | S13 | S14 | S15 | S16 | S17 | S18 | หลังกลางภาค | กลางภาค | รวมระหว่างภาค | ปลายภาค | รวม  | รวมร้อยละ | F1  | F2 | F3 | F4 | F5 | F6 | F7 | F8 | F9 | เต็มก่อนกลางภาค | F10 | F11 | F12 | F13 | F14 | F15 | F16 | F17 | F18 | เต็มหลังกลางภาค | เต็มกลางภาค | เต็มระหว่างภาค | เต็มปลายภาค | เต็มรวม | Gr  | ReGr | RepeatGr | Grade | Remark | SubjectGroupID | SubjectTypeID | Col | ColTr | Teac | Teacher               |
