@@ -1,0 +1,14 @@
+pandas>=2.0
+numpy>=1.23
+fastparquet>=0.8.0
+
+fastapi>=0.110
+uvicorn>=0.23
+
+pydantic>=2.0
+python-multipart>=0.0.6
+
+reportlab>=3.6
+PyPDF2>=3.0
+
+tqdm>=4.66
